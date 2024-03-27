@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
         chains={chains}>
           <ChakraProvider>
             <Component {...pageProps} />
-            <Analytics mode={'production'} />;
+            <Analytics/>
           </ChakraProvider>
       </RainbowKitProvider>
     </WagmiConfig>
